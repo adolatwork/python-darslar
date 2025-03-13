@@ -33,6 +33,56 @@
 #temp = str(36.6)
 
 
+# AMALIYOT
+
+import math
+       
+while True:
+    # Foydalanuvchidan ismni kiritishni so`rash
+    ism = input("Ismingizni kirting: ")
+    if not ism:
+       print("Ismni kiritish shart! ")
+       continue
+
+    # Ismni bosh harfini katta qilish
+    ism = ism.title()
+
+    # Yoshingizni kiritish
+    yosh = input("Yoshingizni kiriting: ")
+    if yosh.isdigit():
+       yosh = int(yosh)
+       if yosh <= 0:
+          print("Yosh musbat son bo`lishi kerak! ")
+          continue
+    else:
+        print("Yoshni faqat raqam bila kiriting! ")
+        continue
+    
+    # Foydalanuvchiga xabar chiqarish
+    xabar = f"Salom, {ism}! Siz {yosh} yoshdasiz."
+    print (xabar)
+
+    # Doira radiusini kiritish
+    radius = input("Doira radiusini kiriting:")
+    try:
+         radius = float(radius)
+         if radius 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

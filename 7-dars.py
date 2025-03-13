@@ -4,7 +4,7 @@
 
 ism = 'Adolat'         
 
-
+shahar = ''
 
 
 

@@ -57,128 +57,92 @@
 
 
 # AMALIYOT
-def oraliq(min,max,qadam=None):
-    sonlar = []
-    while min<max:
-      sonlar.append(max)
-    if qadam:
-        min+=1
+
+# teskari so`z yasovchi dastur:
+# def reverse_word(word):
+#     if word:
+#          return f"Natija:{word[::-1]}"
+#     else:
+#          return "Siz hech narsa kiritmadingiz!"
+
+# info = input("So`zni kiriting:")
+# result = reverse_word(info)
+# print(result)
+
+# Sonni g`alati tarzda o`zgartiruvchi dastur:
+# def kopaytirish():
+#     try:
+#       num = int(input("Sonni kiriting:")) # Foydalanuvchidan son kirtishini so`raymiz
+#       if num < 0:
+#          print(f"Musbat korinishi: {abs(num)}") # Manfiy sonni musbat korinishida chiqaramiz
+#       else:
+#           natija = num * 2
+#           print(f"Ko`paytirilgan natija: {natija}")
+#     except ValueError:
+#           print("Iltimos butun son kiriting!")
+
+# 2-usuli:::
+
+    # def modify_number(num):
+#     if num < 0:
+#        return f"Musbat ko`rinishi: {abs(num)}"
+#     else:
+#        return f"Ko`patirilgan natija: {num * 2}"
+
+# info = int(input("Sonni kiritng:"))
+# result = modify_number(info)
+# print(result)
+
+# So`zni  shifrlovchi dastur
+# def encrypt_word(word):
+#     if word:
+#          return f"SHifrlangan so`z: {'-'.join(str(ord(char)) for char in word)}"
+#     else:
+#          return "So`z kiritlmadi"
+
+# info = int(input("So`zni kiriting:"))
+# result = encrypt_word(info)
+# print(result)
+
+# So`zni shiflrovchi dastur
+# def encrypt_word(word):
+#     if word:
+#        return f"SHifrlangan so`z: {'-'.join(str(ord(char)) for char in word)}"
+#     else:
+#        return "So`z kiritilmadi"
+
+# info = input("So`zni kiritng: ")
+# result = encrypt_word(info)
+# print(result)
+
+# G`AROYIB MATN O`YIN DASTUR
+# def reverse_sentence(sentence):
+#     if sentence:
+#            return f"Natija: {' '.join(sentence.split()[::-1])}"
+#     else:
+#            return "Siz matn kiritmadingiz!"
+
+# info = input("Matinni kiritng: ")
+# result = reverse_sentence(info)
+# print(result)
+
+# SONNI G`ALATI KO`PAYTIRUVCHI DASTUR
+def weird_multiply(num):
+    if num < 0:
+      if num %  2 !=0:
+         return f"Juft ko`rinishi: {num + 1}"
+      else:
+         return f"Musbat ko`rinishi: {abs(num)}"
     else:
-       min+=1
-    return sonlar
-
-print(oraliq(1,11,2))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       return f"Ko`paytirilgan natija: {num * 3}"
+
+if __name__== "__main__":
+    try:
+       info = int(input("Sonni kiriting:"))
+       result = weird_multiply(info)
+       print(result)
+except ValueError: 
+        print("Xatolik: Son kiritishingiz kerak!")
 
 
 
