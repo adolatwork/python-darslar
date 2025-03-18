@@ -110,50 +110,55 @@
 
 
 
+# AMALIYOT 
+# import random
+# Tasodifiy sonlar ro`yxati yaratish
+# sonlar = [random.randint(1,20) for _ in range(10)]
+# print("Tasodifiy sonlar ro`yxati:", sonlar)
+ 
+# Foydalanuvchi kiritgan sondan boshlash
+# son = int(input("Son kiriting:"))
 
+# while True:
+#     if son in sonlar:
+#          print(f"{son} kvadarati: {son ** 2}")
+#          sonlar.remove(son) # Topilgan sonni ro`yxatdan o`chiramiz
+    # else:
+    #     print(f"{son} ro`yxat yo`q!")
+    #     break
 
+# if not sonlar: # Agar barcha sonlar topilsa, dasturni tugatamiz
+    # print("Barcha sonlar topildi!")
+    # break
 
+# Yangi son kiritishni davom ettirish yoki o`tkazib yuborish 
+# son = int(input("Yangi son kiriting (o`tkazish uchun 0):"))
+# if son == 0:
+#     continue
 
+son = 12
 
+sonlar = [1, 2, 3]
 
+while True:
+    if son in sonlar:
+        print(f"{son} kvadrati: {son ** 2}")
+        sonlar.remove(son) # Topilgan sonni ro`yxatdan o`chiramiz
+    else:
+        print(f"{son} ro`yxatda yo`q!")
+        break
 
+    if not sonlar:
+         print("Barcha sonlar topildi!")
+         break
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+son = int(input("Yangi son kiriting (o`tkazish uchun 0):"))
+if son == 0:
+    pass
+else:
+    pass
+       
+    
 
 
 

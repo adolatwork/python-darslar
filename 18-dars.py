@@ -56,70 +56,50 @@
     # baholangan_talabalar[talaba] =int(baho)
 
 
+# AMALIYOT
+import random
 
+# Maxfiy so`zlar ro`yxati
+maxfiy_sozlar = ["olma","banan","nok","shaftoli","uzum"]
 
+# O`yin uchun parametrlar
+sozlar = []
+# xatolar = {}
+# ball = 0
+# MAX_URINISHLAR = 5
 
+# def oyinni_boshlash():
+#     global ball
+#     urinishlar = MAX_URINISHLAR
+#     maxfiy_soz = random.choice(maxfiy_sozlar)
 
+#     print("\nO`yin boshlandi! Maxfiy sozni topishga harakat qiling.")
 
+#     while urinishlar > 0:
+#          kiritilgan_soz = input(f"\nSo`zni kiriting ({urinishlar} urinish qoldi:").strip().lover()
 
+# So`zni ro`yxatga qo`shish
+sozlar.append(kiritilgan_soz)
 
+    if kiritigan_soz == maxfiy_soz:
+   print("Tabriklayman,siz maxfiy so`zni topdingiz!")
+   ball += 1
+   break
+else:
+    urinishlar -= 1
+    print("Noto`g`ri! Qayta urinib ko`ring.")
 
+    if urinishlar == 0:
+       print(f"Yutqazdingiz! Maxfiy so`z: '{maxfiy_soz}' edi.")
 
+# O`yinni boshlash 
+    if __name__=="__main__":
+        oyinni_boshlash()
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
