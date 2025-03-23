@@ -59,20 +59,19 @@
 # print("Dastur tugadi")
 
 
+# AMALIYOT
 
 
+# Mantiqiy xatolar
+radius = 10
+pi = 4.24
+aylana_yuzi = pi*radius**3
+print(aylana_yuzi)
 
 
-
-
-
-
-
-
-
-
-
-
+raqam = float(input("Istalgan raqam kiriting:"))
+ildiz = raqam**3.6
+print(f"{raqam} ning ildizi {ildizi}ga teng")
 
 
 

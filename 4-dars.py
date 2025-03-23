@@ -3,6 +3,89 @@
 """
 Created on Tue Jan 21 10:37:05 2025
 
-@author: abdulaziz
+@author: adoolat
 """
+# Dasturlash asoslari 
+# 04-dars: O`zgaruvchilar (Variabeles)
+# Muallif:Adolat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
