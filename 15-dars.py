@@ -70,6 +70,136 @@
 
 
 # AMALIYOT
+# 1.Bo`sh lug`at yaratish
+car = {}
+
+# 2.Lug`atga qiymatlar qo`shish
+car['model'] = 'Toyota'
+car['year'] = 2020
+car['color'] = 'black'
+car['price'] = 25000
+
+# 3.Lug`atni chop etish
+print("Lug`atdagi ma`lumotlar:", car)
+
+# 4.Lug`at ichidan ma`lum kalit bilan qiymat olish 
+print("Mashina modeli:", car.get('model'))
+
+# 5.Kalit mavjudligini tekshirish 
+if 'color' in car:
+    print("Mashina rangi mavjud:", car['color'])
+
+# 6.qiymatni yangilsh
+car['price'] = 27000
+print("Yangilangan narx:", car['price'])
+
+# 7.Lug`at uzunligin aniqlash
+print("Lug`at uzunligi:", len(car))
+
+# 8.Lug`atdagi barcha kalitlarni chiqarish
+print("Kalitlar:",list(car.keys()))
+
+# 9.Lug`atdagi barcha qiymatlarni chiqarish
+print("Qiymatlar:", list(car.values()))
+
+# 10.Lug`tdagi barcha elementlarni chiqarish
+print("Elementlar:", list(car.items()))
+
+# 11.Qiymatni o`chirish
+car.pop('color')
+print("O`chirilgandan keyin:", car)
+
+# 13.Lug`atdan oxirgi elementni o`chirish
+car.popitem()
+print("Oxirgi elment o`chirilgandan keyin:", car)
+
+# 14.Lug`atni tozlash
+car.clear()
+print("Tozlangandan keyin:", car)
+
+# 15.Yangi lug`at yaratish
+studen = {
+    'name': 'Ali',
+    'age': 22,
+   'faculty':'Engineering'
+}
+
+# 16.Lug`atdan qiymat olish uchun get ishlatish
+print(f"Talaba nomi: student.get('name')")
+print(f"Talaba yoshi: student.get('age')")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
