@@ -25,17 +25,17 @@ def player_gusses():
          attempts += 1
 
          if guess < secret_number:
-            print("🔺Yo`q bu son juda kichik! Kattroq son kiritng! 💪")
+             print("🔺Yo`q bu son juda kichik! Kattroq son kiritng! 💪")
          elif guess > secret_number:
-            print("🔻 Afsus bu sson juda katta! Kichikroq son kiriting! 😎")
+             print("🔻 Afsus bu sson juda katta! Kichikroq son kiriting! 😎")
          else:
-            print(f"\n🎉 Tabriklayman! 🎯 {guess} sonini {attempts} ta urinishda topdingiz! 👏👏👏")
-            break
+             print(f"\n🎉 Tabriklayman! 🎯 {guess} sonini {attempts} ta urinishda topdingiz! 👏👏👏")
+             break
 
           # chegaralarni tekshirish
-         # if low > high:
-            print("CHegaralar noto`g`ri belgilandi. Dastur tugatildi.")
-            break 
+         if low > high:
+             print("CHegaralar noto`g`ri belgilandi. Dastur tugatildi.")
+             break 
 
 def computer_guess():
     print("2. Endi siz bir son o`ylaysiz, men esa uni topishga harakat qilaman! 😎")
