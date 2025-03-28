@@ -124,10 +124,6 @@ studen = {
    'faculty':'Engineering'
 }
 
-# 16.Lug`atdan qiymat olish uchun get ishlatish
-print(f"Talaba nomi: student.get('name')")
-print(f"Talaba yoshi: student.get('age')")
-
 
 
 

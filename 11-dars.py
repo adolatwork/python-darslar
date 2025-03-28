@@ -32,6 +32,51 @@
 #print(dustlar)
 
 
+# AMALIYOT
+# Foydalanuvchidan sonlar orasini kiritishini so`raymiz
+start = int(input("Boshlang`ich sonni kiriting:"))
+end = int(input("Oxirgi sonni kiriting:"))
+
+# Sonlar ro`yxatini yaratamiz
+sonlar = list(range(start,end + 1))
+
+# Natijani chiqarish
+print("\n=== Kiritilgan sonlar kvadrati ===\n")
+
+for son in sonlar:
+    kvadrat = son ** 2
+print(f"{son} ning kvadrati: {kvadrat}")
+
+# Natijani umumlashtirish
+print("\n=== Natija tahlili ===\n")
+
+# Barcha kvadartlarni ro`yxat shaklida chiqaramiz
+kvadratlar = [son**2 for son in sonlar]
+print(f"Barcha kvadratlar: {kvadratlar}")
+
+# Eng kichik kvadratni topamiz
+print(f"\nEng kichik kvadrat:{min(kvadratlar)}")
+print(f"\nEng katta kvadrat:{max(kvadratlar)}")
+
+# Kvadratlar yig`indisi va o`rtacha qiymtaini chiqaramiz
+print(f"\nKvadratlar yig`indisi: {sum(kvadratlar)}")
+print(f"Kvadratlarning o`rtacha qiymati: {sum(kvadratlar) / len(kvadratlar):.2f}")
+
+# Dastur tugadi
+print("Dastur yakunlandi. Rahmat!")
+
+# ❌
+
+
+
+
+
+
+
+
+
+
+
 
 
 

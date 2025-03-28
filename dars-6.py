@@ -28,6 +28,73 @@
 # 685  < = INPUT   
 # 6 + 8 + 5 = 19
 
+son = int(input("Uch xonli sonni kiriting:"))
+
+# Raqamlarni ajratib olish
+birlik = son % 10         # 685 % 10 = 5
+onlik = (son // 10) % 10  # (685 // 10) % 10 = 8
+yuzlik = son // 100       # 685 // 100 = 6
+
+# Yig`indisini hisoblash
+yigindi = birlik + onlik + yuzlik
+
+# Natijani chiqarish
+print("{son} => {yuzlik} + {onlik} + {birlik} = {yigindi}")
+
+# ❌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
