@@ -25,46 +25,46 @@ Created on Tue Mar 18 09:56:50 2025
 
 
 # Amaliyot
+import random
+
+def qiziqarli_javob(ismlar):
+    # Tasodifiy ismni tanlash
+    tanlangan_ism = random.choice(ismlar)
+    javoblar = [
+         f"{tanlangan_ism.title()} - Bu ism menga juda yoqadi!",
+         f"{tanlangan_ism.title()} - Bu ism juda noodatiy tuyuladi!",
+         f"{tanlangan_ism.title()} - Bu ismni eshitganimda yuragim g`alati bo`lib ketadi!",
+         f"{tanlangan_ism.title()} - Bu  ism juda ko`p ma`nolarni anglatadi!",
+         f"{tanlangan_ism.title()} - Bu ismni tanlaganingizga qoyil qoldim!"
+    ]
+
+    # Tasodiy javobni tanlash
+    javob = random.choice(javoblar)
+    return javob
+
+def asosiy():
+    ismlar = []
+    print("Ismlar ro`yxatini kiriting (to`xtash uchun 'stop' deb yozing):")
+    while True:
+        ism = input("Ism kiriting: ").strip()
+        if ism.lower() == 'stop':
+           break
+        if ism:
+             ismlar.append(ism)
+
+    if ismlar:
+        javob = qiziqarli_javob(ismlar)
+        print("\nNatija:")
+        print(javob)
+    else:
+        print("Siz birorta ham ism kiritmadingiz.")
+
+# Dastur ishga tushishi uchun:
+asosiy()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ❌
 
 
 
