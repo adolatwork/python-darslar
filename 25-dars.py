@@ -19,23 +19,23 @@ def player_gusses():
 
     secret_number = random.randint(10,15)
     attempts = 0
-
     while True:
-         guess = int(input("\n🎯 Taxminingizni kiriting: "))
-         attempts += 1
+        
+        guess = int(input("\n🎯 Taxminingizni kiriting: "))
+        attempts += 1
 
-         if guess < secret_number:
+        if guess < secret_number:
              print("🔺Yo`q bu son juda kichik! Kattroq son kiritng! 💪")
-         elif guess > secret_number:
-             print("🔻 Afsus bu sson juda katta! Kichikroq son kiriting! 😎")
-         else:
+        elif guess > secret_number:
+             print("🔻 Afsus bu son juda katta! Kichikroq son kiriting! 😎")
+        else:
              print(f"\n🎉 Tabriklayman! 🎯 {guess} sonini {attempts} ta urinishda topdingiz! 👏👏👏")
              break
 
           # chegaralarni tekshirish
          if low > high:
-             print("CHegaralar noto`g`ri belgilandi. Dastur tugatildi.")
-             break 
+            print("CHegaralar noto`g`ri belgilandi. Dastur tugatildi.")
+            break 
 
 def computer_guess():
     print("2. Endi siz bir son o`ylaysiz, men esa uni topishga harakat qilaman! 😎")

@@ -61,7 +61,7 @@ def get_order():
               print("Noto`g`ri ID! Qayta kiriting.")
 
     return order
-def checout(order):
+def checkout(order):
     total = sum(item["price"] for item in order)
     print("\n=== Buyurtma tasdiqlash ===")
     for item in order:
@@ -92,7 +92,7 @@ def main():
           break
 
 if __name__=="__main__":
-    main
+    main()
 
 
 # ❌
