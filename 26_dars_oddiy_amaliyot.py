@@ -68,3 +68,41 @@ def func():
 
 func()
 
+print("Ofarin! Siz yutdingiz rahmat uyin uynaganingiz uchun 😍 ") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
