@@ -26,7 +26,7 @@ class Avto:
         self.narh = narh
         self.__km = km
         self.__id__ = uuid4()
-        Avto.num_avto += 1
+        Avto.__num_avto += 1
 
     @classmethod
     def get_num_avto(cls):
@@ -36,28 +36,23 @@ class Avto:
         return self.__km
   
 
+    def get_km(self):
+        return self.__km
 
-   
+    def get_id(self):
+        return self.__id
 
-    
-
-    # def get_km(self):
-    #     return self.__km
-
-    # def get_id(self):
-    #     return self.__id
-
-    # def add_km(self,km):
-    #     """Moshinaning km ga yana km qo`shsa bo`ladimi"""
-    #     if km>=0:
-    #        self.__km += km
-    #     else:
-    #        print("Moshina km kamaytirib bo`lmaydi")
+    def add_km(self,km):
+        """Moshinaning km ga yana km qo`shish"""
+        if km>=0:
+           self.__km += km
+        else:
+           print("Moshina km kamaytirib bo`lmaydi")
 
 
-
-
-
+avto1 = Avto("GM","Malibu","Qora",2020,40000)
+avto2 = Avto("GM","Lacetti","Oq",2020, 20000)
+avto3 = Avto("Toyota",'Carolla',"Silver",2018,45000)
 
 
 

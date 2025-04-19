@@ -22,18 +22,19 @@ def __getitem__(self,index):
 def __setitem__(self,index,qiymat):
     self.avtolar[index]=qiymat
 
-# def __call__
-
+def __call__(self):
+    return [avto for avto in self.avtolar]
+    
 def add_avto(self,*qiymat):
     for avto in qiymat:
         if isinstance(avto,Avto):
-           self.avtolar.append(avto)
+            self.avtolar.append(avto)
         else:
-             print("Avto kiriting")
+            print("Avto kiriting")
 
+salon1 = AvtoSalon("MaxAvto")
 
-
-
+avto1 = Avto("GM","Malibu","Qora",2020,40000)
 
 
 
