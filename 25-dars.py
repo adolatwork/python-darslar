@@ -33,7 +33,7 @@ def player_gusses():
              break
 
           # chegaralarni tekshirish
-         if low > high:
+          if low > high:
             print("CHegaralar noto`g`ri belgilandi. Dastur tugatildi.")
             break 
 

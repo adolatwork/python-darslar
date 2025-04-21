@@ -6,10 +6,10 @@
     
 # 33-DARS: FILES
     
-    
-    
-    
-    
+file = open('pi.txt')  
+# PI = file.read
+# print(PI)
+# file.close()
     
     
     
