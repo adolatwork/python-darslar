@@ -9,19 +9,19 @@ Created on Wed Mar 19 13:52:18 2025
 # 23-dars: FUNKSIYALAR SO`NGSO`Z
 # Muallif:Adolat Imomiddinova
 
-# import math
+import math
 
 # def nom(argument):
-    # return ifoda
+#     return ifoda
 
 # uzunlik = lambda pi, r :2*pi*r
 # print(uzunlik(math.pi,10))
 
-# kvadrat = lambda x,y : x ** y
+# kvadrat = lambda x,y : x ** 
 # print(kvadrat(3,2))
 
 # def daraja(n):
-#     return lambda x : x**n
+    # return lambda x : x**n
 
 
 # kvadrat = daraja(2)
@@ -42,11 +42,11 @@ Created on Wed Mar 19 13:52:18 2025
 
 # print(list(map(daraja2,sonlar)))
 
-# 1-usuli:lambda funksiyasi yordamida tezroq va oson uzun kodlarni chiqarish
+# # 1-usuli:lambda funksiyasi yordamida tezroq va oson uzun kodlarni chiqarish
 # kvadratlar = list(map(lambda x:x*x,sonlar))
 # print(kvadratlar)
 
-# 2-usul: sonlarni va kvadratlarni chiqarish uchun boshqacha va uzun dastur
+# # 2-usul: sonlarni va kvadratlarni chiqarish uchun boshqacha va uzun dastur
 # kvadratlar = []
 # for son in sonlar:
 #     kvadratlar.append(son*son)
@@ -64,7 +64,7 @@ Created on Wed Mar 19 13:52:18 2025
 # import random as r
 
 # sonlar = r.sample(range(100),10)
-# # print(sonlar)
+# print(sonlar)
 # def juftmi(x):
 #     """x juft bo`lsa True, aks holda False qaytaruvchi funksiya"""
 #     return x%2==0
